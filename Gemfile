@@ -10,7 +10,11 @@ gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 gem 'sprockets-rails'
 
 gem 'bootstrap-sass'
+
 gem 'jquery-rails'
+
+# Authentication
+gem 'devise'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
