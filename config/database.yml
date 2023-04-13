@@ -8,10 +8,10 @@ default: &default
 development:
   <<: *default
   database: collabfield_development
-  #username: collabfield
-  #password:
-  #host: localhost
-  #port: 5432
+  username: <%= ENV['USERNAME'] %>
+  password: <%= ENV['PASSWORD'] %>
+  host: localhost
+  port: 5432
 test:
   <<: *default
   database: collabfield_test
